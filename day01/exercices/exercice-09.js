@@ -17,4 +17,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let estAdmin = false;
+let estModerateur = true;
+let motDePasseValide = true;
+if(motDePasseValide && (estAdmin || estModerateur)){
+    console.log("Acces Accorde");
+} else{
+    console.log("Acces d'acces");
+}
